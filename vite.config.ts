@@ -8,4 +8,7 @@ export default defineConfig({
   resolve: {
     extensions: ['.js', '.ts', '.jsx', '.tsx'], 
   },
+  build: {
+    outDir: 'dist', 
+  },
 })
