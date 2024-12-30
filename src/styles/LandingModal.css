@@ -1,0 +1,42 @@
+.landing-modal {
+    /* Estilos para el modal */
+}
+
+.landing-modal__header {
+    background-color: #343a40;
+    color: white;
+}
+
+.landing-modal__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.landing-modal__body {
+    padding: 20px;
+}
+
+.landing-modal__text {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.landing-modal__form-label {
+    font-weight: bold;
+}
+
+.landing-modal__button--success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.landing-modal__button--success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.landing-modal__timer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    text-align: right;
+}

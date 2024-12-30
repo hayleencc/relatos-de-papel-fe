@@ -1,0 +1,49 @@
+/* Cart.css */
+.cart {
+    max-width: 400px; /* Ajusta el ancho máximo según sea necesario */
+    background-color: #f9f9f9; /* Color de fondo suave */
+    border: 1px solid #e0e0e0; /* Borde suave */
+  }
+  
+  .cart__header {
+    font-size: 1.5rem;
+    background-color: #e7f3fe; /* Fondo suave para el encabezado */
+    color: #31708f; /* Color de texto suave */
+  }
+  
+  .cart__body {
+    padding: 15px;
+  }
+  
+  .cart__items {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cart__item {
+    padding: 10px 0; /* Espaciado vertical entre los artículos */
+    border-bottom: 1px solid #ddd; /* Línea divisoria entre los artículos */
+  }
+  
+  .cart__item-info {
+    flex-grow: 1; /* Permite que la información ocupe el espacio disponible */
+  }
+  
+  .cart__total {
+    font-weight: bold;
+    margin-top: 10px; /* Espacio superior antes del total */
+  }
+  
+  .cart__checkout {
+    margin-top: 15px; /* Espacio superior antes del botón de checkout */
+  }
+  
+  /* Estilo del botón de checkout */
+  .btn-primary {
+    background-color: #5cb85c; /* Color de fondo suave para el botón */
+    border-color: #4cae4c; /* Borde suave para el botón */
+  }
+  
+  .btn-primary:hover {
+    background-color: #4cae4c; /* Colo
+  
